@@ -61,8 +61,8 @@ h2 {
   background-image: url("/Assets/imagens/");
   background-color: var(--cor4);
   color: var(--cor0);
-  height: 7rem;
-  font-size: 5vh;
+  height: 5rem;
+  font-size: 2rem;
   width: 100%;
 }
 section#texto2 {
@@ -70,6 +70,9 @@ section#texto2 {
   margin: 2rem 0 0 0;
   color: #7e0e0c;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section#texto2 span {
