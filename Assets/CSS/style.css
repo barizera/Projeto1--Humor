@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor0: #ffcd01;
+  --cor1: #ffa600;
+  --cor2: #ff4b00;
+  --cor3: #ff3117;
+  --cor4: #7e0e0c;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--cor0);
+}
+
+header {
+  display: flex;
+  background-image: url();
+  justify-content: center;
+  max-height: 450px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+#texto1 {
+  width: 100%;
+}
+
+#pokes {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem;
+}
+
+div.cards {
+  align-items: center;
+}
+
+h1 {
+  color: #7e0e0c;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/Assets/imagens/");
+  background-color: var(--cor4);
+  color: var(--cor0);
+  height: 7rem;
+  font-size: 5vh;
+  width: 100%;
+}
+section#texto2 {
+  height: 6rem;
+  margin: 2rem 0 0 0;
+  color: #7e0e0c;
+  font-weight: 700;
+}
+
+section#texto2 span {
+  font-size: 3rem;
+  margin: auto;
+  bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  color: var(--cor0);
+  margin: 1rem;
+  background-color: var(--cor4);
+  border-radius: 5rem;
+  width: 10rem;
+}
+
+h3:hover {
+  transform: scale(1.1);
+}
+
+div#fotoAlterar {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+img#imagem {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p#pEvoluiu {
+  font-size: 2rem;
+  color: #7e0e0c;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+#button {
+  background-color: transparent;
+  width: 12rem;
+  border: none;
+  cursor: pointer;
+}
+
+#button:hover {
+  transform: scale(1.1);
+}
+footer {
+  width: 100%;
+  background-color: var(--cor4);
+  color: var(--cor0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+  bottom: 0;
+  margin-top: 5rem;
+}
