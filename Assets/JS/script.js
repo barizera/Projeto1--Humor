@@ -3,9 +3,9 @@ const img = document.querySelector("#imagem");
 const pEvoluiu = document.querySelector("#pEvoluiu");
 
 const imgList = [
-  "./Assets/imagens/Charmander 1.png" /* [0]*/,
-  "./Assets/imagens/charmeleon.png" /* [1]*/,
-  "./Assets/imagens/Charizard Esnobe.png" /* [2]*/,
+  "./Assets/imagens/Charmander 1.png",
+  "./Assets/imagens/charmeleon.png",
+  "./Assets/imagens/Charizard Esnobe.png",
 ];
 
 buttonclick.addEventListener("click", () => {
