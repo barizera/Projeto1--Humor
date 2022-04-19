@@ -1,1 +1,6 @@
 Projeto 01 do módulo 2 do curso da BlueEdtech
+
+Projeto tem como requisito:
+1- Alterar imagens e textos pelo DOM;
+2- Criar um botão que faça a alteração através do DOM;
+3- Responsividade.
